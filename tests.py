@@ -8,7 +8,6 @@ class EchoTestCase(unittest.TestCase):
 
     def send_message(self, message):
         """Attempt to send a message using the client
-
         In case of a socket error, fail and report the problem
         """
         try:
